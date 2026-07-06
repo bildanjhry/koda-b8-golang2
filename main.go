@@ -43,7 +43,13 @@ func task2() {
 	fmt.Println(hello.world)
 }
 
+func task5() {
+	nums := [3]int{4, 20, 12}
+	fmt.Println(nums[1] + nums[2])
+}
+
 func main() {
 	task1()
 	task2()
+	task5()
 }
