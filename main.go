@@ -31,6 +31,19 @@ func task1() {
 	fmt.Println(we.are.the.best)
 }
 
+func task2() {
+	type str struct {
+		world string
+	}
+
+	hello := str{
+		world: "Hello World",
+	}
+
+	fmt.Println(hello.world)
+}
+
 func main() {
 	task1()
+	task2()
 }
